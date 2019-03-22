@@ -1,6 +1,11 @@
 Run command on multiple servers. Thanks to this little [snippet] from [@Erik](https://github.com/erikdubbelboer/).
 
-## Interactive session
+```
+go get github.com/xoxzo/myssh/cmd/myssh
+$GOPATH/bin/myssh -h host-1,host-2
+```
+
+## With gore
 Use [gore].
 
 ```
